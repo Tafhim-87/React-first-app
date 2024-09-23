@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn1 {
+  border: 1px solid white;
+}
+
+.menu ul li a {
+  background-color: transparent;
+}
+
+#nav {
+  background-color: rgba(0, 0, 0, 0.041);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(245, 222, 179, 0.637);
+  border-bottom: 1px solid rgba(245, 222, 179, 0.637);
+}
+
+.foot h4 {
+  color: #7c7c7c;
+  cursor: pointer;
+  &:hover {
+    color: white;
+  }
+}
